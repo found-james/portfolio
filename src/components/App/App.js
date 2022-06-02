@@ -1,4 +1,4 @@
-import Default from "./layout/Default/Default";
+import Default from "../../layout/Default/Default";
 
 function App() {
   return (
