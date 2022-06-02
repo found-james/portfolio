@@ -1,5 +1,5 @@
-import styles from "./header.module.css";
-
+import styles from "./header.module.css"
+import { Link } from "react-router-dom"
 function Header() {
   return (
     <header className={styles.header}>
@@ -8,9 +8,9 @@ function Header() {
         </section>
         <section>
             <ul>
-                <li>Home</li>
-                <li>Projects</li>
-                <li>Resume</li>
+                <Link to="/"><li>Home</li></Link>
+                <Link to="/projects"><li>Projects</li></Link>
+                <Link to="/resume"><li>Resume</li></Link>
             </ul>
         </section>
     </header>
