@@ -1,7 +1,10 @@
+import { Fragment } from "react"
 
 function Home() {
   return (
-    <div style={{border: "1px solid gray"}}>Home</div>
+    <Fragment>
+      <section style={{border: "1px solid gray"}}>Home</section>
+    </Fragment>
   )
 }
 
