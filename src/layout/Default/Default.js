@@ -5,9 +5,7 @@ function Default({ children }) {
   return (
     <Fragment>
     <Header />
-    <main>
         { children }
-    </main>
     </Fragment>
   )
 }

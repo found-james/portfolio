@@ -5,7 +5,7 @@ function About() {
   return (
     <Fragment>
         <section className={ styles.partOne } >
-          <article style={{border: "1px solid gray"}}>
+          <article>
             <img src="https://i.imgur.com/nHpbxQO.png"/>
             <div>
               <h2> ABOUT </h2>

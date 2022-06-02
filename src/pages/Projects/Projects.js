@@ -1,7 +1,12 @@
+import { Fragment } from "react"
 
 function Projects() {
   return (
-    <div>Projects</div>
+    <Fragment>
+      <main className="projectsMain">
+        <div>Projects</div>
+      </main>
+    </Fragment>
   )
 }
 
