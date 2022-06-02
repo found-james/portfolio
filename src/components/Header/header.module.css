@@ -1,0 +1,120 @@
+.header {
+    background-color: #fad25a;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header section {
+    display: inherit;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.header section:nth-of-type(1){
+    align-items: flex-end;
+}
+
+.header section:nth-of-type(1) > h1 {
+    border: 1px solid black;
+    width: fit-content;
+    margin: 0px;
+    border: 0px;
+}
+
+
+.header section:nth-of-type(2) > ul {
+    display: inherit;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    /* border: 1px solid black; */
+    width: fit-content;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.header section:nth-of-type(2) > ul > li {
+
+    border: 1px solid black;
+    font-size: large;
+    
+}
+
+@media only screen and (min-width: 810px) {
+    .header {
+        background-color: #fad25a;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    .header section {
+        height: 100%;
+        width: 50%;
+    }
+
+    .header section:nth-of-type(1){
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .header section:nth-of-type(1) > h1 {
+        border: 1px solid black;
+        width: fit-content;
+        margin: 0px;
+        border: 0px;
+        position: relative;
+        left: 20px;
+    }
+
+    .header section:nth-of-type(2){
+        justify-content: flex-end;
+    }
+    
+    .header section:nth-of-type(2) > ul {
+        display: inherit;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+        /* border: 1px solid black; */
+        width: fit-content;
+        padding: 0px;
+        margin: 0px;
+        position: relative;
+        right: 20px;
+    
+    }
+    
+} 
+/* 
+
+
+.header section:nth-of-type(1){
+    background-color: #00FFFF;
+}
+
+.header section:nth-of-type(2){
+    background-color: #9CAF88;
+}
+
+.header section:nth-of-type(2) > ul {
+    display: flex;
+    list-style: none;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.header section:nth-of-type(2) > ul > li {
+
+    border: 1px solid black;
+    
+} */

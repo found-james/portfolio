@@ -1,9 +1,10 @@
+import Default from "./layout/Default/Default";
 
 function App() {
   return (
-    <div className="App">
-      Hello
-    </div>
+    <Default>
+      
+    </Default>
   );
 }
 
