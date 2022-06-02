@@ -1,0 +1,50 @@
+.partTwo
+{
+    display: inherit;
+    max-width: 650px;
+
+}
+
+/* article 
+{
+
+} */
+
+.partTwo img 
+{
+    height: 260px;
+    object-fit: contain;
+    width: 80%;
+    
+}
+
+.partTwo h2
+{
+    height: fit-content;
+}
+
+figure 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+@media only screen and (min-width: 810px) 
+{
+    .partTwo 
+    {
+        max-width: none;
+    }
+
+    .partTwo > article 
+    {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+    }
+
+}

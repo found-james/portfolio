@@ -13,7 +13,7 @@
     justify-content: center;
     height: 50%;
     width: 100%;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 
 .header section:nth-of-type(1)
@@ -23,7 +23,7 @@
 
 .header section:nth-of-type(1) > h1 
 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: fit-content;
     margin: 0px;
     border: 0px;
@@ -43,7 +43,7 @@
 
 .header section:nth-of-type(2) > ul > li 
 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-size: large;   
 }
 
@@ -71,7 +71,7 @@
 
     .header section:nth-of-type(1) > h1 
     {
-        border: 1px solid black;
+        /* border: 1px solid black; */
         width: fit-content;
         margin: 0px;
         border: 0px;
