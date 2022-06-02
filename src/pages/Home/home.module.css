@@ -1,0 +1,90 @@
+.homeMain 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeMain > .partOne
+{
+    display: inherit;
+    flex-direction: inherit;
+    align-items: center;
+    justify-content: center;
+    max-width: 650px;
+    height: 330px;
+}
+
+.partOne  div 
+{
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.partOne > article 
+{
+    display: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    gap: 10px;
+    height: inherit;
+}
+
+.partOne > article > img 
+{
+    height: 150px;
+    width: 80%;
+}
+
+.partOne div > h2 
+{
+    width: fit-content;
+}
+
+.partOne div > p 
+{
+    text-align: center;
+}
+
+@media only screen and (min-width: 810px) 
+{
+    .homeMain > .partOne
+    {
+        max-width: none;
+    }
+
+    .partOne > article 
+    {
+        flex-direction: row;
+        height: 300px;
+    }
+
+    .partOne > article > img 
+    {
+        height: inherit;
+        width: 50%;
+    }
+
+    .partOne  div 
+    {
+        width: 50%;
+        gap: 30px;
+    }
+
+    .partOne div > h2 
+    {
+        font-size: 32px;
+    }
+
+    .partOne div > p 
+    {
+        width: 80%;
+        font-size: larger;
+    }
+}
