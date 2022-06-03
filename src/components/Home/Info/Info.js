@@ -13,31 +13,19 @@ function Info() {
         <section className={styles.partTwo}>
           <article>
                 <figure onClick={ toProjects }>
-                  {
-                    <Fragment>
                     <img src={data.projects.img} />
                     <h2>{data.projects.title}</h2>
                     <p>{data.projects.description}</p>
-                    </Fragment>
-                  }
                 </figure>
                 <figure onClick={ toResume }>
-                  {
-                    <Fragment>
                     <img src={data.resume.img} />
                     <h2>{data.resume.title}</h2>
                     <p>{data.resume.description}</p>
-                    </Fragment>
-                  }
                 </figure>
                 <figure>
-                  {
-                    <Fragment>
                     <img src={data.contact.img} />
                     <h2>{data.contact.title}</h2>
                     <p>{data.contact.description}</p>
-                    </Fragment>
-                  }
                 </figure>
           </article>
         </section>

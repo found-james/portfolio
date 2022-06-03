@@ -1,10 +1,11 @@
+import ProjectList from "../../components/Projects/ProjectList"
 import { Fragment } from "react"
 
 function Projects() {
   return (
     <Fragment>
       <main className="projectsMain">
-        <div>Projects</div>
+        <ProjectList />
       </main>
     </Fragment>
   )
