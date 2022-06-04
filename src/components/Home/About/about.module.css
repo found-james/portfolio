@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     max-width: 650px;
-    height: 450px;
+    height: 480px;
 }
 
 .partOne  div 
@@ -32,8 +32,6 @@
 .partOne > article > img 
 {
     height: 260px;
-    object-fit: contain;
-    width: 80%;
     
 }
 
@@ -60,6 +58,7 @@
         flex-direction: row;
         align-items: flex-start;
         height: 300px;
+        width: 90%;
     }
 
     .partOne > article > img 

@@ -20,6 +20,18 @@
     /* border: 1px solid gray; */
 }
 
+.header h1 
+{
+    font-family: 'Oswald', sans-serif;
+}
+
+.link
+{
+    text-decoration: none;
+    font-family: 'Josefin Slab', serif;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
 .header section:nth-of-type(1)
 {
     align-items: flex-end;

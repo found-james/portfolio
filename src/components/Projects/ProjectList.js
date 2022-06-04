@@ -7,6 +7,7 @@ function ProjectList() {
   return (
     <Fragment>
         <section className={styles.partTwo}>
+         <div></div>
           <article>
             <figure>
               <img src={data.spaceBattle.img} />

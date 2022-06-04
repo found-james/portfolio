@@ -8,9 +8,9 @@ function Header() {
         </section>
         <section>
             <ul>
-                <Link to="/"><li>Home</li></Link>
-                <Link to="/projects"><li>Projects</li></Link>
-                <Link to="/resume"><li>Resume</li></Link>
+                <Link className={styles.link} to="/"><li>Home</li></Link>
+                <Link className={styles.link} to="/projects"><li>Projects</li></Link>
+                <Link className={styles.link} to="/resume"><li>Resume</li></Link>
             </ul>
         </section>
     </header>

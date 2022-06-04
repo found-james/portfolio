@@ -15,8 +15,8 @@ article
 .partTwo img 
 {
     height: 260px;
-    object-fit: contain;
-    width: 80%;
+    /* object-fit: contain; */
+    /* width: 80%; */
     
 }
 
@@ -51,6 +51,8 @@ img {
     .partTwo 
     {
         max-width: none;
+        width: 810px;
+
     }
 
     .partTwo  article 
@@ -60,12 +62,17 @@ img {
         /* border: 1px solid black; */
     }
 
+    .partTwo img {
+        border: 1px solid black;
+        height: 200px;
+    }
+
     figure 
     {
         width: 33%;
         /* border: 1px solid black; */
         justify-content: flex-start;
-        height: 420px;;
+        height: 420px;
     }
 
    
