@@ -1,81 +1,124 @@
-.partTwo
+.partOne
 {
     display: flex;
+    flex-direction: column;
+    gap: 20px;
     max-width: 650px;
+    /* position: relative;
+    top: 20px; */
 
 }
 
-article 
+/* .partTwo > div 
+{
+    height: 100px;
+} */
+
+.partOne article 
 {
     display: inherit;
     flex-direction: column;
     gap: 19px;
+
 }
 
-.partTwo img 
+.partOne img 
 {
+  
     height: 260px;
-    /* object-fit: contain; */
-    /* width: 80%; */
+    /* width: auto; */
+   
     
 }
 
-.partTwo h2
+.partOne h2
 {
     height: fit-content;
 }
 
-.partTwo p 
+.partOne p 
 {
     width: 80%;
     text-align: justify;
 }
 
-figure 
+.partOne figure 
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-
-
 }
 
-img {
+.partOne div 
+{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+
+.partOne img {
     cursor: pointer;
 }
 
 @media only screen and (min-width: 810px) 
 {
-    .partTwo 
+    .partOne
     {
         max-width: none;
         width: 810px;
-
+        /* position: relative; */
+        /* top: 20px; */
+        flex-direction: column;
     }
 
-    .partTwo  article 
-    {
-        display: flex;
-        flex-direction: row;
-        /* border: 1px solid black; */
-    }
-
-    .partTwo img {
+    .partOne img {
         border: 1px solid black;
         height: 200px;
     }
 
-    figure 
+    .partOne > div 
+    {
+        height: 50px;
+    }
+
+    .partOne  article 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px solid black;
+
+    }
+
+    .partOne  article:nth-of-type(1)
+    {
+        justify-content: space-between;
+    }
+
+    .partOne figure 
     {
         width: 33%;
         /* border: 1px solid black; */
         justify-content: flex-start;
-        height: 420px;
+        height: 450px;
+
     }
 
+
+    .partOne article:nth-of-type(1) > figure
+    {
+        flex-direction: row;
+        width: 100%;
+        height: 350px;
+    }
+
+    .partOne article:nth-of-type(1) > figure > img 
+    {
+        height: 300px;
+    }
    
-
-
 }

@@ -10,7 +10,17 @@ function Info() {
   
   return (
     <Fragment>
-        <section className={styles.partTwo}>
+      <section className={ styles.partOne } >
+        <div></div>
+          <article>
+            <figure>
+            <img src={data.about.img}/>
+            <div>
+              <h2>{data.about.title}</h2>
+              <p>{data.about.description}</p>
+            </div>
+            </figure>
+          </article>
           <article>
                 <figure onClick={ toProjects }>
                     <img src={data.projects.img} />
@@ -28,7 +38,8 @@ function Info() {
                     <p>{data.contact.description}</p>
                 </figure>
           </article>
-        </section>
+      </section>
+
     </Fragment>
   )
 }

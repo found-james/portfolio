@@ -23,6 +23,7 @@
 .header h1 
 {
     font-family: 'Oswald', sans-serif;
+    font-size: 37px;
 }
 
 .link
@@ -30,6 +31,7 @@
     text-decoration: none;
     font-family: 'Josefin Slab', serif;
     /* font-family: 'Open Sans', sans-serif; */
+    font-size: 22px;
 }
 
 .header section:nth-of-type(1)
