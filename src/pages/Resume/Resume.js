@@ -1,4 +1,5 @@
 import Default from "../../layout/Default/Default"
+import Info from "../../components/Resume/Info/Info"
 import { Fragment } from "react"
 
 function Resume() {
@@ -6,7 +7,7 @@ function Resume() {
     <Fragment>
       <main className="resumeMain">
         <Default>
-          
+          <Info />
         </Default>
       </main>
     </Fragment>

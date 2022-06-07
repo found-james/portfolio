@@ -1,4 +1,4 @@
-.partTwo
+.partThree
 {
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
 
 }
 
-.partTwo > div 
+.partThree > div 
     {
         height: 100px;
     }
@@ -19,7 +19,7 @@
     height: 100px;
 } */
 
-.partTwo article 
+.partThree article 
 {
     display: inherit;
     flex-direction: column;
@@ -27,7 +27,7 @@
 
 }
 
-.partTwo img 
+.partThree img 
 {
   
     height: 260px;
@@ -36,18 +36,18 @@
     
 }
 
-.partTwo h2
+.partThree h2
 {
     height: fit-content;
 }
 
-.partTwo p 
+.partThree p 
 {
     width: 80%;
     text-align: justify;
 }
 
-.partTwo figure 
+.partThree figure 
 {
     display: flex;
     flex-direction: column;
@@ -56,7 +56,7 @@
     gap: 10px;
 }
 
-.partTwo div 
+.partThree div 
 {
     display: flex;
     flex-direction: column;
@@ -65,13 +65,13 @@
     align-items: center;
 }
 
-.partTwo img {
+.partThree img {
     cursor: pointer;
 }
 
 @media only screen and (min-width: 810px) 
 {
-    .partTwo 
+    .partThree 
     {
         max-width: none;
         width: 810px;
@@ -80,17 +80,17 @@
         flex-direction: column;
     }
 
-    .partTwo img {
+    .partThree img {
         border: 1px solid black;
         height: 200px;
     }
 
-    .partTwo > div 
+    .partThree > div 
     {
         height: 50px;
     }
 
-    .partTwo  article 
+    .partThree article 
     {
         display: flex;
         flex-direction: row;
@@ -99,31 +99,35 @@
 
     }
 
-    .partTwo  article:nth-of-type(2)
+    .partThree  article
     {
         justify-content: center;
     }
-
-    .partTwo figure 
+/*
+    .partThree figure 
     {
         width: 33%;
-        /* border: 1px solid black; */
+         border: 1px solid black; 
         justify-content: flex-start;
         height: 450px;
 
-    }
+    } */
+    
 
-
-    .partTwo article:nth-of-type(2) > figure
+    .partThree article > figure
     {
         flex-direction: row;
         width: 100%;
         height: 350px;
     }
 
-    .partTwo article:nth-of-type(2) > figure > img 
+    .partThree article > figure > img 
     {
         height: 300px;
+    }
+
+    .partThree > article:nth-of-type(2n) > figure {
+        flex-direction: row-reverse;
     }
    
 }

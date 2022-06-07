@@ -36,7 +36,8 @@ p
 @media screen and (min-width: 810px) 
 {
     .homeMain,
-    .projectsMain
+    .projectsMain,
+    .resumeMain
     {
         top: 0px;
     }
