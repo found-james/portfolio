@@ -127,3 +127,75 @@
     }
    
 }
+
+@media only screen and (min-width: 1398px) 
+{
+    .partOne
+    {
+        max-width: none;
+        width: 1200px;
+        /* position: relative; */
+        /* top: 20px; */
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .partOne h2
+{
+    font-size: 32px;
+    
+}
+
+.partOne p 
+{
+    font-size: 18px;
+}
+
+    .partOne img {
+        border: 1px solid black;
+        height: 300px;
+    }
+
+    .partOne > div 
+    {
+        height: 50px;
+    }
+
+    .partOne  article 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px solid black;
+        height: 500px;
+
+    }
+
+    .partOne  article:nth-of-type(1)
+    {
+        justify-content: space-between;
+        height: 400px;
+    }
+
+    .partOne figure 
+    {
+        width: 33%;
+        /* border: 1px solid black; */
+        justify-content: flex-start;
+        height: 450px;
+
+    }
+
+    .partOne article:nth-of-type(1) > figure
+    {
+        flex-direction: row;
+        width: 100%;
+        height: inherit;
+    }
+
+    .partOne article:nth-of-type(1) > figure > img 
+    {
+        height: 400px;
+    }
+   
+}
