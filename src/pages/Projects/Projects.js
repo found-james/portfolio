@@ -5,11 +5,9 @@ import { Fragment } from "react"
 function Projects() {
   return (
     <Fragment>
-      <main className="projectsMain">
         <Default>
           <ProjectList />
         </Default>
-      </main>
     </Fragment>
   )
 }

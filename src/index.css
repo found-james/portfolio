@@ -21,9 +21,7 @@ p
     font-family: 'Open Sans', sans-serif;
 }
 
-.homeMain,
-.projectsMain,
-.resumeMain
+main
 {
     display: flex;
     flex-direction: column;
@@ -33,12 +31,3 @@ p
     
 }
 
-@media screen and (min-width: 810px) 
-{
-    .homeMain,
-    .projectsMain,
-    .resumeMain
-    {
-        top: 0px;
-    }
-}
