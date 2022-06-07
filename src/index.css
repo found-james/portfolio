@@ -22,14 +22,15 @@ p
 }
 
 .homeMain,
-.projectsMain
+.projectsMain,
+.resumeMain
 {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     position: relative;
-    top: 100px;
+    
 }
 
 @media screen and (min-width: 810px) 

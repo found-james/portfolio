@@ -1,7 +1,15 @@
+import Default from "../../layout/Default/Default"
+import { Fragment } from "react"
 
 function Resume() {
   return (
-    <div>Resume</div>
+    <Fragment>
+      <main className="resumeMain">
+        <Default>
+          
+        </Default>
+      </main>
+    </Fragment>
   )
 }
 

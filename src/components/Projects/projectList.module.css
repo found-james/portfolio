@@ -9,6 +9,11 @@
 
 }
 
+.partTwo > div 
+    {
+        height: 100px;
+    }
+
 /* .partTwo > div 
 {
     height: 100px;
