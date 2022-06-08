@@ -41,7 +41,6 @@ function Info() {
             </div>
             </figure>
           </article>
-          <div></div>
         </section>
   )
 }
