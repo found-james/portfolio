@@ -10,24 +10,24 @@ function ProjectList() {
          <div></div>
           <article>
             <figure>
-              <img src={data.spaceBattle.img} />
+            <a href={data.spaceBattle.anchor} target="_blank"><img src={data.spaceBattle.img} /></a>
               <h2>{data.spaceBattle.title}</h2>
               <p>{data.spaceBattle.description}</p> 
             </figure>
             <figure>
-              <img src={data.githubFinder.img} />
+            <a href={data.githubFinder.anchor} target="_blank"><img src={data.githubFinder.img} /></a>
               <h2>{data.githubFinder.title}</h2>
               <p>{data.githubFinder.description}</p>
             </figure>
             <figure>
-              <img src={data.contactKeeper.img} />
+            <a href={data.contactKeeper.anchor} target="_blank"><img src={data.contactKeeper.img} /></a>
               <h2>{data.contactKeeper.title}</h2>
               <p>{data.contactKeeper.description}</p>
             </figure>
           </article>
           <article>
             <figure>
-              <img src={data.collab.img} />
+              <a href={data.collab.anchor}><img src={data.collab.img} /></a>
               <div>
               <h2>{data.collab.title}</h2>
               <p>{data.collab.description}</p>
