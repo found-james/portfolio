@@ -16,6 +16,16 @@ p
 {
     font-family: 'Open Sans', sans-serif;
 }
+html 
+{
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+}
+body
+{
+    height: 100%;
+}
 
 main
 {

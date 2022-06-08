@@ -87,6 +87,11 @@
         height: 170px;
     }
 
+    .partTwo p 
+    {
+        width: 95%;
+    }
+
     .partTwo > div 
     {
         height: 50px;

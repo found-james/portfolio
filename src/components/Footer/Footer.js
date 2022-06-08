@@ -2,7 +2,7 @@ import styles from "./footer.module.css"
 import { Link } from "react-router-dom"
 function Footer() {
   return (
-    <header className={styles.footer}>
+    <footer className={styles.footer}>
         <section>
             <h1>SUESCUN</h1>
         </section>
@@ -13,7 +13,7 @@ function Footer() {
                 <Link className={styles.link} to="/resume"><li>Resume</li></Link>
             </ul>
         </section>
-    </header>
+    </footer>
   )
 }
 
