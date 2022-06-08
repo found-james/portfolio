@@ -56,13 +56,14 @@
     gap: 10px;
 }
 
-.partOne div 
+.partOne figure div 
 {
     display: flex;
     flex-direction: column;
     /* border: 1px solid black; */
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .partOne img {
@@ -140,26 +141,27 @@
         gap: 40px;
     }
 
+    .partOne > div 
+    {
+        height: 80px;
+    }
+    
     .partOne h2
-{
+    {
     font-size: 32px;
     
-}
+    }
 
-.partOne p 
-{
+    .partOne p 
+    {
     font-size: 18px;
-}
+    }
 
     .partOne img {
         border: 1px solid black;
         height: 300px;
     }
 
-    .partOne > div 
-    {
-        height: 50px;
-    }
 
     .partOne  article 
     {
@@ -196,6 +198,7 @@
     .partOne article:nth-of-type(1) > figure > img 
     {
         height: 400px;
+
     }
    
 }

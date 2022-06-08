@@ -38,6 +38,7 @@ function Info() {
                     <p>{data.contact.description}</p>
                 </figure>
           </article>
+          <div></div>
       </section>
 
     </Fragment>

@@ -34,6 +34,7 @@ function ProjectList() {
               </div>
             </figure>
           </article>
+          <div></div>
         </section>
     </Fragment>
   )
