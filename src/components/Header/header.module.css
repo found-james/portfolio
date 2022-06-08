@@ -1,14 +1,13 @@
 .header 
 {
     background-image: url("https://www.designbolts.com/wp-content/uploads/2014/06/Polygon-twitter-header-background.jpg");
+    background-attachment: fixed;
     height: 100px;
     display: flex;
     flex-direction: column;
     position: fixed;
     width: 100%;
     z-index: 5;
-
-
 }
 
 .header section 
@@ -17,7 +16,6 @@
     justify-content: center;
     height: 50%;
     width: 100%;
-    /* border: 1px solid gray; */
 }
 
 .header h1 
@@ -25,7 +23,6 @@
     font-family: 'Oswald', sans-serif;
     font-size: 37px;
     color:white;
-    
 }
 
 .link
@@ -44,9 +41,7 @@
 
 .header section:nth-of-type(1) > h1 
 {
-    /* border: 1px solid black; */
     width: fit-content;
-    
     margin: 0px;
     border: 0px;
 }
@@ -57,7 +52,6 @@
     align-items: center;
     gap: 20px;
     list-style: none;
-    /* border: 1px solid black; */
     width: fit-content;
     padding: 0px;
     margin: 0px;
@@ -65,7 +59,6 @@
 
 .header section:nth-of-type(2) > ul > li 
 {
-    /* border: 1px solid black; */
     font-size: 18px;   
 }
 
@@ -93,7 +86,6 @@
 
     .header section:nth-of-type(1) > h1 
     {
-        /* border: 1px solid black; */
         width: fit-content;
         margin: 0px;
         border: 0px;
@@ -112,13 +104,11 @@
         align-items: center;
         gap: 20px;
         list-style: none;
-        /* border: 1px solid black; */
         width: fit-content;
         padding: 0px;
         margin: 0px;
         position: relative;
         right: 20px;
-    
     }
 } 
 
@@ -141,29 +131,3 @@
         font-size: 22px;
     }
 }
-/* 
-
-
-.header section:nth-of-type(1){
-    background-color: #00FFFF;
-}
-
-.header section:nth-of-type(2){
-    background-color: #9CAF88;
-}
-
-.header section:nth-of-type(2) > ul {
-    display: flex;
-    list-style: none;
-    border: 1px solid black;
-    width: fit-content;
-    padding: 0px;
-    margin: 0px;
-
-}
-
-.header section:nth-of-type(2) > ul > li {
-
-    border: 1px solid black;
-    
-} */

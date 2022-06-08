@@ -4,11 +4,9 @@ import { Fragment } from "react"
 
 function Projects() {
   return (
-    <Fragment>
-        <Default>
-          <ProjectList />
-        </Default>
-    </Fragment>
+    <Default>
+      <ProjectList />
+    </Default>
   )
 }
 

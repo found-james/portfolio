@@ -1,27 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Slab:ital,wght@1,100&family=Open+Sans:wght@300&family=Oswald:wght@700&family=Raleway&display=swap');
 
-* {
+* 
+{
     margin: 0;
     padding: 0;
 }
 
-
-h2 
-{
-  
-    font-family: 'Raleway', sans-serif;
-}
-
-p
-{
-    font-family: 'Open Sans', sans-serif;
-}
 html 
 {
     height: 100%;
     width: 100%;
     overflow: scroll;
 }
+
 body
 {
     height: 100%;
@@ -34,6 +25,16 @@ main
     align-items: center;
     height: 100vh;
     width: 100%;
+}
+
+h2 
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+p
+{
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media only screen and (min-width: 1398px) 

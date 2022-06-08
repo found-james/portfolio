@@ -7,9 +7,9 @@
 }
 
 .home > div 
-    {
-        height: 100px;
-    }
+{
+    height: 100px;
+}
 
 .home article 
 {
@@ -65,7 +65,8 @@
         flex-direction: column;
     }
 
-    .home img {
+    .home img 
+    {
         height: 200px;
     }
 
@@ -91,9 +92,7 @@
         width: 33%;
         justify-content: flex-start;
         height: 450px;
-
     }
-
 
     .home article:nth-of-type(1) > figure
     {
@@ -105,8 +104,7 @@
     .home article:nth-of-type(1) > figure > img 
     {
         height: 300px;
-    }
-   
+    }   
 }
 
 @media only screen and (min-width: 1398px) 
@@ -126,19 +124,18 @@
     
     .home h2
     {
-    font-size: 32px;
+        font-size: 32px;
     }
 
     .home p 
     {
-    font-size: 18px;
+        font-size: 18px;
     }
 
     .home img 
     {
         height: 300px;
     }
-
 
     .home  article 
     {
@@ -171,6 +168,5 @@
     .home article:nth-of-type(1) > figure > img 
     {
         height: 400px;
-    }
-   
+    }   
 }

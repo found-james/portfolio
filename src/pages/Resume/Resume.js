@@ -4,11 +4,10 @@ import { Fragment } from "react"
 
 function Resume() {
   return (
-    <Fragment>
-        <Default>
-          <Info />
-        </Default>
-    </Fragment>
+    <Default>
+      <Info />
+    </Default>
+ 
   )
 }
 

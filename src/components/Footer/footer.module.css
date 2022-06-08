@@ -1,8 +1,9 @@
 .footer 
 {
     background-image: url("https://www.pixelandparcel.com/wp-content/uploads/2017/03/footer-background.jpg");
-
-   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     width: 100%;
 }
 
@@ -15,15 +16,13 @@
     align-items: center;
     gap: 20px;
     width: 100%;
-    /* border: 1px solid gray; */
 }
 
 .footer  i 
 {
     color: white;
-   height: 26px;
+    height: 26px;
 }
-
 
 @media only screen and (min-width: 810px) 
 {
@@ -36,7 +35,6 @@
     {
         height: 50px;
     }
- 
 } 
 
 
@@ -53,7 +51,4 @@
         height: 80px;
         background-color: black;
     }
- 
-
-
 }

@@ -4,36 +4,23 @@
     flex-direction: column;
     gap: 20px;
     max-width: 650px;
-    /* position: relative;
-    top: 20px; */
-
 }
 
 .partThree > div 
-    {
-        height: 100px;
-    }
-
-/* .partTwo > div 
 {
     height: 100px;
-} */
+}
 
 .partThree article 
 {
     display: inherit;
     flex-direction: column;
     gap: 19px;
-
 }
 
 .partThree img 
 {
-  
-    height: 260px;
-    /* width: auto; */
-   
-    
+    height: 260px;   
 }
 
 .partThree h2
@@ -60,7 +47,6 @@
 {
     display: flex;
     flex-direction: column;
-    /* border: 1px solid black; */
     justify-content: center;
     align-items: center;
 }
@@ -75,8 +61,6 @@
     {
         max-width: none;
         width: 810px;
-        /* position: relative; */
-        /* top: 20px; */
         flex-direction: column;
     }
 
@@ -96,23 +80,12 @@
         flex-direction: row;
         justify-content: space-around;
         border: 1px solid black;
-
     }
 
     .partThree  article
     {
         justify-content: center;
     }
-/*
-    .partThree figure 
-    {
-        width: 33%;
-         border: 1px solid black; 
-        justify-content: flex-start;
-        height: 450px;
-
-    } */
-    
 
     .partThree article > figure
     {
@@ -128,8 +101,7 @@
 
     .partThree > article:nth-of-type(2n) > figure {
         flex-direction: row-reverse;
-    }
-   
+    }   
 }
 
 @media only screen and (min-width: 1398px) 
@@ -138,9 +110,6 @@
     {
         max-width: none;
         width: 1200px;
-        
-        /* position: relative; */
-        /* top: 20px; */
         flex-direction: column;
     }
 
@@ -156,13 +125,12 @@
 
     .partThree h2
     {
-    font-size: 32px;
-    
+        font-size: 32px;
     }
 
     .partThree p 
     {
-    font-size: 18px;
+        font-size: 18px;
     }
 
     .partThree article 
@@ -172,16 +140,13 @@
         justify-content: space-around;
         border: 1px solid black;
         height: 400px;
-
     }
 
     .partThree  article
     {
         justify-content: center;
-        /* height: 400px; */
     }
     
-
     .partThree article > figure
     {
         flex-direction: row;
@@ -201,6 +166,5 @@
     .partThree article > figure > div
     {
         gap: 20px;
-    }
-   
+    }  
 }
