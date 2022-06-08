@@ -1,4 +1,4 @@
-.partTwo
+.projectList
 {
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
 
 }
 
-.partTwo > div 
+.projectList > div 
     {
         height: 100px;
     }
 
-/* .partTwo > div 
+/* .projectList > div 
 {
     height: 100px;
 } */
 
-.partTwo article 
+.projectList article 
 {
     display: inherit;
     flex-direction: column;
@@ -27,7 +27,7 @@
 
 }
 
-.partTwo img 
+.projectList img 
 {
   
     height: 220px;
@@ -38,18 +38,18 @@
     
 }
 
-.partTwo h2
+.projectList h2
 {
     height: fit-content;
 }
 
-.partTwo p 
+.projectList p 
 {
     width: 80%;
     text-align: justify;
 }
 
-.partTwo figure 
+.projectList figure 
 {
     display: flex;
     flex-direction: column;
@@ -58,7 +58,7 @@
     gap: 10px;
 }
 
-.partTwo div 
+.projectList div 
 {
     display: flex;
     flex-direction: column;
@@ -67,13 +67,13 @@
     align-items: center;
 }
 
-.partTwo img {
+.projectList img {
     cursor: pointer;
 }
 
 @media only screen and (min-width: 810px) 
 {
-    .partTwo 
+    .projectList 
     {
         max-width: none;
         width: 810px;
@@ -82,22 +82,22 @@
         flex-direction: column;
     }
 
-    .partTwo img {
+    .projectList img {
         
         height: 170px;
     }
 
-    .partTwo p 
+    .projectList p 
     {
         width: 95%;
     }
 
-    .partTwo > div 
+    .projectList > div 
     {
         height: 50px;
     }
 
-    .partTwo  article 
+    .projectList  article 
     {
         display: flex;
         flex-direction: row;
@@ -106,12 +106,12 @@
 
     }
 
-    .partTwo  article:nth-of-type(2)
+    .projectList  article:nth-of-type(2)
     {
         justify-content: center;
     }
 
-    .partTwo figure 
+    .projectList figure 
     {
         width: 33%;
         /* border: 1px solid black; */
@@ -121,23 +121,28 @@
     }
 
 
-    .partTwo article:nth-of-type(2) > figure
+    .projectList article:nth-of-type(2) > figure
     {
         flex-direction: row;
         width: 100%;
+        height: 400px;
+    }
+
+    .projectList article:nth-of-type(2) > figure img 
+    {
         height: 350px;
     }
 
-    .partTwo article:nth-of-type(2) > figure img 
+    .projectList article:nth-of-type(2) > figure p
     {
-        height: 300px;
+        width: 80%;
     }
    
 }
 
 @media only screen and (min-width: 1398px) 
 {
-    .partTwo
+    .projectList
     {
         max-width: none;
         width: 1200px;
@@ -147,33 +152,33 @@
         gap: 40px;
     }
 
-    .partTwo > div 
+    .projectList > div 
     {
         height: 80px;
     }
 
-    .partTwo h2
+    .projectList h2
     {
     font-size: 32px;
     }
 
-    .partTwo p 
+    .projectList p 
     {
     font-size: 18px;
     }
 
-    .partTwo img {
+    .projectList img {
     
         height: 250px;
         /* width: auto; */
     }
 
-    /* .partTwo > div 
+    /* .projectList > div 
     {
         height: 50px;
     } */
 
-    .partTwo  article 
+    .projectList  article 
     {
         display: flex;
         flex-direction: row;
@@ -183,13 +188,13 @@
 
     }
 
-    .partTwo  article:nth-of-type(2)
+    .projectList  article:nth-of-type(2)
     {
         justify-content: space-between;
         height: 400px;
     }
 
-    .partTwo figure 
+    .projectList figure 
     {
         width: 33%;
         /* border: 1px solid black; */
@@ -198,20 +203,25 @@
 
     }
 
-    .partTwo article:nth-of-type(2) > figure
+    .projectList article:nth-of-type(2) > figure
     {
         flex-direction: row;
         width: 100%;
         height: inherit;
     }
 
-    .partTwo article:nth-of-type(2) > figure > img 
+    .projectList article:nth-of-type(2) > figure > img 
     {
         height: 400px;
         
     }
    
-    .partTwo article:nth-of-type(2) > figure div
+    .projectList article:nth-of-type(2) > figure div
+    {
+        gap: 20px;
+    }
+
+    .projectList article:nth-of-type(2) > figure p
     {
         gap: 20px;
     }

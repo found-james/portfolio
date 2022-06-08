@@ -40,7 +40,7 @@ main
 {
     body 
     {
-        background-color: rgb(232, 242, 247);
+        background-color: rgba(229, 228, 226);
         display: flex;
         justify-content: center;
     }

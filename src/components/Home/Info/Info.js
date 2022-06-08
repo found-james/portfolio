@@ -10,7 +10,7 @@ function Info() {
   
   return (
     <Fragment>
-      <section className={ styles.partOne } >
+      <section className={ styles.home } >
         <div></div>
           <article>
             <figure>

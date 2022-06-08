@@ -6,7 +6,7 @@ import { Fragment } from "react"
 function ProjectList() {
   return (
     <Fragment>
-        <section className={styles.partTwo}>
+        <section className={styles.projectList}>
          <div></div>
           <article>
             <figure>

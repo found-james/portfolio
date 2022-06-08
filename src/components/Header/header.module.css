@@ -1,6 +1,6 @@
 .header 
 {
-    background-color: #fad25a;
+    background-image: url("https://www.designbolts.com/wp-content/uploads/2014/06/Polygon-twitter-header-background.jpg");
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -24,6 +24,8 @@
 {
     font-family: 'Oswald', sans-serif;
     font-size: 37px;
+    color:white;
+    
 }
 
 .link
@@ -32,6 +34,7 @@
     font-family: 'Josefin Slab', serif;
     /* font-family: 'Open Sans', sans-serif; */
     font-size: 22px;
+    color: white;
 }
 
 .header section:nth-of-type(1)
