@@ -46,7 +46,6 @@ function ProjectList() {
         </figure>
       </article>
       <div></div>
-      <Footer />
       </motion.section>
   )
 }

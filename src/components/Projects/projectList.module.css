@@ -68,6 +68,7 @@
         flex-direction: column;
         padding: 70px 0 0 0;
         height: inherit;
+        width: inherit;
 
     }
 
@@ -86,7 +87,7 @@
         height: 50px;
     }
 
-    .projectList  article 
+    .projectList article 
     {
         display: flex;
         flex-direction: row;
@@ -95,7 +96,7 @@
         max-width: none;
     }
 
-    .projectList  article:nth-of-type(2)
+    .projectList article:nth-of-type(2)
     {
         justify-content: center;
     }

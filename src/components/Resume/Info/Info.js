@@ -47,7 +47,6 @@ function Info() {
             </div>
             </figure>
           </article>
-          <Footer />
         </motion.section>
   )
 }

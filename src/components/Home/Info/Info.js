@@ -43,7 +43,6 @@ function Info() {
           </figure>
           </article>
           <div></div>
-          <Footer />
       </motion.section>
   )
 }
