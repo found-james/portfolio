@@ -6,6 +6,8 @@
     overflow: scroll;
     align-items: center;
     width: inherit;
+    padding: 120px 0 0 0;
+
 }
 
 .buffer
@@ -46,7 +48,7 @@
     gap: 10px;
 }
 
-.home figure div 
+.home figure > div 
 {
     display: flex;
     flex-direction: column;
@@ -64,6 +66,8 @@
     .home
     {
         flex-direction: column;
+        padding: 40px 0 0 0;
+
     }
 
     .home img 
@@ -118,6 +122,7 @@
         max-width: none;
         flex-direction: column;
         gap: 40px;
+        padding: 100px 0 0 0;
     }
 
     .home > div 

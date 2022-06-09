@@ -6,6 +6,7 @@
     overflow: scroll;
     /* justify-content: center; */
     align-items: center;
+    padding: 120px 0 0 0;
 }
 
 .buffer
@@ -65,6 +66,8 @@
     {
         /* max-width: none; */
         flex-direction: column;
+        padding: 70px 0 0 0;
+
     }
 
     .projectList img 
@@ -129,6 +132,9 @@
         max-width: none;
         flex-direction: column;
         gap: 40px;
+        padding: 100px 0 0 0;
+        height: inherit;
+
     }
 
     .projectList > div 

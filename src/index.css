@@ -58,7 +58,10 @@ p
 {
     body 
     {
-        background-color: rgba(229, 228, 226);
+        /* background-color: rgba(255,255,0, 0.1);
+         */
+         background-image: url("https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+         background-size: contain;
         display: flex;
         justify-content: center;
     }
