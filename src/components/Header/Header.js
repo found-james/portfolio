@@ -5,7 +5,10 @@ function Header() {
   return (
     <header className={styles.header}>
         <section>
+          <div>
             <h1>SUESCUN</h1>
+            <h1>SUESCUN</h1>
+            </div>
         </section>
         <section>
             <ul>

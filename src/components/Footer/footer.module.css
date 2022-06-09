@@ -18,7 +18,8 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    width: 100%;
+    width: 100vw;
+    
 }
 
 .footer  i 
@@ -43,15 +44,17 @@
 
 @media only screen and (min-width: 1398px) 
 {
-    .footer section
+    .footer
     {
-        width: 1398px;
         height: 80px;
+        width: 1398px;
+
     }
 
     .footer section 
     {
         height: 80px;
         background-color: black;
+        width: 1398px;
     }
 }

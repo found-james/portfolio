@@ -15,7 +15,11 @@ function Info() {
       animate={{ opacity: 5 }}
       transition={{duration: 3 }}
       exit={{ opacity: 0 }}>
-        <div></div>
+        <div className={styles.buffer}>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+      </div>
         <article>
           <figure>
             <img src={data.about.img}/>
@@ -43,6 +47,7 @@ function Info() {
           </figure>
           </article>
           <div></div>
+          <Footer />
       </motion.section>
   )
 }
