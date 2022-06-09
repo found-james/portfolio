@@ -3,6 +3,7 @@ import data from "./data"
 import { useNavigate } from "react-router-dom"
 import Footer from "../../Footer/Footer"
 import Header from "../../Header/Header"
+import { motion } from "framer-motion"
 
 function Info() {
   let navigate = useNavigate();
@@ -10,11 +11,11 @@ function Info() {
   const toResume = () => navigate("/resume")
   
   return (
-      <section className={styles.home} >
-        <Header />
-        <div>
-          
-        </div>
+      <motion.section className={styles.home} initial={{ opacity: 0 }}
+      animate={{ opacity: 5 }}
+      transition={{duration: 3 }}
+      exit={{ opacity: 0 }}>
+        <div></div>
         <article>
           <figure>
             <img src={data.about.img}/>
@@ -42,8 +43,7 @@ function Info() {
           </figure>
           </article>
           <div></div>
-          <Footer />
-      </section>
+      </motion.section>
   )
 }
 

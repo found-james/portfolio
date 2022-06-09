@@ -3,11 +3,14 @@ import styles from "./projectList.module.css"
 import data from "./data"
 import Footer from "../Footer/Footer"
 import Header from "../Header/Header"
+import { motion } from "framer-motion"
 
 function ProjectList() {
   return (
-    <section className={styles.projectList}>
-      <Header />
+    <motion.section className={styles.projectList} initial={{ opacity: 0 }}
+    animate={{ opacity: 5 }}
+    transition={{duration: 3}}
+    exit={{ opacity: 0 }}>
       <div></div>
       <article>
         <figure>
@@ -45,7 +48,7 @@ function ProjectList() {
       </article>
       <div></div>
       <Footer />
-      </section>
+      </motion.section>
   )
 }
 
