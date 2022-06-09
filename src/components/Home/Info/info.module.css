@@ -7,7 +7,8 @@
     align-items: center;
     width: inherit;
     padding: 120px 0 0 0;
-
+    height: inherit;
+    position: relative;
 }
 
 .buffer
@@ -67,6 +68,7 @@
     {
         flex-direction: column;
         padding: 40px 0 0 0;
+        height: inherit;
 
     }
 
@@ -80,7 +82,7 @@
         height: 50px;
     }
 
-    .home  article 
+    .home article 
     {
         display: flex;
         flex-direction: row;

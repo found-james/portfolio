@@ -67,6 +67,7 @@
         /* max-width: none; */
         flex-direction: column;
         padding: 70px 0 0 0;
+        height: inherit;
 
     }
 
@@ -133,7 +134,7 @@
         flex-direction: column;
         gap: 40px;
         padding: 100px 0 0 0;
-        height: inherit;
+        
 
     }
 
