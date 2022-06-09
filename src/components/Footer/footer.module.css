@@ -5,8 +5,8 @@
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
 }
 
 .footer section 

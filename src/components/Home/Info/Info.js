@@ -1,6 +1,7 @@
 import styles from "./info.module.css"
 import data from "./data"
 import { useNavigate } from "react-router-dom"
+import Footer from "../../Footer/Footer";
 
 function Info() {
   let navigate = useNavigate();
@@ -37,6 +38,7 @@ function Info() {
           </figure>
           </article>
           <div></div>
+          <Footer />
       </section>
   )
 }

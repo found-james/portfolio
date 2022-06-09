@@ -1,11 +1,11 @@
 import Default from "../../layout/Default/Default"
 import Info from "../../components/Resume/Info/Info"
-import { Fragment } from "react"
+import { CSSTransition, TransitionGroup } from "react-transition-group"
 
 function Resume() {
   return (
     <Default>
-      <Info />
+        <Info />
     </Default>
  
   )

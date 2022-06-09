@@ -1,5 +1,6 @@
 import data from "./data"
 import styles from "./info.module.css"
+import Footer from "../../Footer/Footer"
 
 function Info() {
   return (
@@ -41,6 +42,7 @@ function Info() {
             </div>
             </figure>
           </article>
+          <Footer />
         </section>
   )
 }

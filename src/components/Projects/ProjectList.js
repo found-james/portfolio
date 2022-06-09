@@ -1,6 +1,7 @@
 
 import styles from "./projectList.module.css"
 import data from "./data"
+import Footer from "../Footer/Footer"
 
 function ProjectList() {
   return (
@@ -41,6 +42,7 @@ function ProjectList() {
         </figure>
       </article>
       <div></div>
+      <Footer />
       </section>
   )
 }
