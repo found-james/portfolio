@@ -5,9 +5,7 @@ import { CSSTransition, TransitionGroup } from "react-transition-group"
 
 function Projects() {
   return (
-    <Default>
       <ProjectList />
-    </Default>
   )
 }
 

@@ -1,10 +1,12 @@
 import data from "./data"
 import styles from "./info.module.css"
 import Footer from "../../Footer/Footer"
+import Header from "../../Header/Header"
 
 function Info() {
   return (
       <section className={styles.partThree}>
+      <Header />
         <div></div>
           <article>
             <figure>

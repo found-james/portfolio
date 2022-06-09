@@ -1,7 +1,8 @@
 import styles from "./info.module.css"
 import data from "./data"
 import { useNavigate } from "react-router-dom"
-import Footer from "../../Footer/Footer";
+import Footer from "../../Footer/Footer"
+import Header from "../../Header/Header"
 
 function Info() {
   let navigate = useNavigate();
@@ -10,7 +11,10 @@ function Info() {
   
   return (
       <section className={styles.home} >
-        <div></div>
+        <Header />
+        <div>
+          
+        </div>
         <article>
           <figure>
             <img src={data.about.img}/>

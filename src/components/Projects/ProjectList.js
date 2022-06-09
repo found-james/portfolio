@@ -2,10 +2,12 @@
 import styles from "./projectList.module.css"
 import data from "./data"
 import Footer from "../Footer/Footer"
+import Header from "../Header/Header"
 
 function ProjectList() {
   return (
     <section className={styles.projectList}>
+      <Header />
       <div></div>
       <article>
         <figure>

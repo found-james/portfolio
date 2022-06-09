@@ -4,10 +4,7 @@ import { CSSTransition, TransitionGroup } from "react-transition-group"
 
 function Resume() {
   return (
-    <Default>
         <Info />
-    </Default>
- 
   )
 }
 
