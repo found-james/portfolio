@@ -4,7 +4,6 @@
     flex-direction: column;
     gap: 20px;
     overflow: scroll;
-    /* justify-content: center; */
     align-items: center;
     padding: 150px 0;
     width: 100%;
