@@ -9,7 +9,7 @@ function Contact() {
       <Default>
         <Info />
       </Default>
-      <Footer />
+      {/* <Footer /> */}
     </Fragment>
   )
  }

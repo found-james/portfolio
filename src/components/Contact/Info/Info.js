@@ -1,5 +1,5 @@
 import styles from "./info.module.css"
-
+import Footer from "../../Footer/Footer"
 import { motion } from "framer-motion"
 
 function Info() {
@@ -32,7 +32,7 @@ function Info() {
             </figure>
           </article>
           
-
+          <Footer />
           
         </motion.section>
   )

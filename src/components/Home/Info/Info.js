@@ -44,7 +44,7 @@ function Info() {
             <p>{data.contact.description}</p>
           </figure>
           </article>
-          
+          <Footer />
       </motion.section>
     
   

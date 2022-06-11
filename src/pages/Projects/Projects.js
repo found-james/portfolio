@@ -9,7 +9,7 @@ function Projects() {
   return (
     <Default>
       <ProjectList />
-      <Footer />
+      {/* <Footer /> */}
     </Default>
   )
 }

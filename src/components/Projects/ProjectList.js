@@ -45,7 +45,10 @@ function ProjectList() {
           </div>
         </figure>
       </article>
-      <div></div>
+      <div className={styles.bottomOfPage}>
+        <div></div>
+      <Footer />
+      </div>
       </motion.section>
   )
 }

@@ -12,7 +12,7 @@ function Home() {
       <Default>
         <Info />
       </Default>
-      <Footer />
+      {/* <Footer /> */}
     </Fragment>
   )
  }

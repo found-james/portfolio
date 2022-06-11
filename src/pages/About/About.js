@@ -9,7 +9,7 @@ function About() {
     <Default>
       <Info />
     </Default>
-    <Footer />
+    {/* <Footer /> */}
     </Fragment>
   )
 }
