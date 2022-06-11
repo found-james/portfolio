@@ -14,21 +14,21 @@ function ProjectList() {
       <article>
         <figure>
           <a href={data.spaceBattle.anchor} target="_blank">
-            <img src={data.spaceBattle.img} />
+            <motion.img whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} src={data.spaceBattle.img} />
           </a>
           <h2>{data.spaceBattle.title}</h2>
           <p>{data.spaceBattle.description}</p> 
         </figure>
         <figure>
           <a href={data.githubFinder.anchor} target="_blank">
-            <img src={data.githubFinder.img} />
+            <motion.img whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} src={data.githubFinder.img} />
           </a>
           <h2>{data.githubFinder.title}</h2>
           <p>{data.githubFinder.description}</p>
         </figure>
         <figure>
           <a href={data.contactKeeper.anchor} target="_blank">
-            <img src={data.contactKeeper.img} />
+            <motion.img whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} src={data.contactKeeper.img} />
           </a>
           <h2>{data.contactKeeper.title}</h2>
           <p>{data.contactKeeper.description}</p>
@@ -37,7 +37,7 @@ function ProjectList() {
       <article>
         <figure>
           <a href={data.collab.anchor} target="_blank">
-            <img src={data.collab.img} />
+            <motion.img whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} src={data.collab.img} />
           </a>
           <div>
             <h2>{data.collab.title}</h2>

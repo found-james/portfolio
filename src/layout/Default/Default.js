@@ -8,7 +8,7 @@ function Default({ children }) {
     <Fragment>
     <Header />
         { children }
-    <Footer />
+    {/* <Footer /> */}
     </Fragment>
   )
 }

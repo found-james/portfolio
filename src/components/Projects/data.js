@@ -2,7 +2,7 @@
 const data = {
     spaceBattle: {
         img : "https://i.imgur.com/N6hhcu8.png",
-        anchor: "https://jayworks2318.github.io/space-battle/",
+        anchor: "https://found-james.github.io/space-battle/",
         title: "SPACE BATTLE",
         description: "ras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.",
         

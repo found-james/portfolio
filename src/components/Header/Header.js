@@ -14,7 +14,9 @@ function Header() {
             <ul>
                 <Link className={styles.link} to="/"><li>Home</li></Link>
                 <Link className={styles.link} to="/projects"><li>Projects</li></Link>
-                <Link className={styles.link} to="/resume"><li>Resume</li></Link>
+                <Link className={styles.link} to="/about"><li>About</li></Link>
+                <Link className={styles.link} to="/contact"><li>Contact</li></Link>
+
             </ul>
         </section>
     </header>

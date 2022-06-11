@@ -1,12 +1,9 @@
 import Default from "../../layout/Default/Default"
-import Info from "../../components/Home/Info/Info"
-import { CSSTransition, TransitionGroup } from "react-transition-group"
-import Header from "../../components/Header/Header"
-import { motion } from "framer-motion"
+import Info from "../../components/Contact/Info/Info"
 import { Fragment } from "react"
 import Footer from "../../components/Footer/Footer"
 
-function Home() {
+function Contact() {
   return (
     <Fragment>
       <Default>
@@ -17,4 +14,4 @@ function Home() {
   )
  }
 
-export default Home
+export default Contact

@@ -27,6 +27,7 @@ main
     align-items: center;
     height: inherit;
     width: 100%;
+    
 }
 
 h2 
@@ -39,20 +40,6 @@ p
     font-family: 'Open Sans', sans-serif;
 }
 
-.item-enter {
-    opacity: 0;
-  }
-  .item-enter-active {
-    opacity: 1;
-    transition: opacity 1000ms ease-in;
-  }
-  .item-exit {
-    opacity: 1;
-  }
-  .item-exit-active {
-    opacity: 0;
-    transition: opacity 1000ms ease-in;
-  }
 
 @media only screen and (min-width: 1398px) 
 {

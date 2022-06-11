@@ -1,8 +1,8 @@
 
 const data = {
     about: {
-        img: "https://i.imgur.com/nHpbxQO.png",
-        title: "ABOUT",
+        img: "https://i.imgur.com/oEZCFGW.jpg",
+        title: "WELCOME",
         description: "Lorem ipsum dolor sit amet. Quo accusantium ipsum aut neque voluptatum et enim dolores cum obcaecati voluptatem est consequatur quae ut vero galisum et rerum nobis? 33 exercitationem optio eos aliquid pariatur et eveniet expedita eum ullam beatae est dignissimos ipsum qui itaque odio. In commodi iusto eos dolorem dolores nam ducimus sunt eum necessitatibus corrupti."
     },
     projects: {
@@ -13,7 +13,7 @@ const data = {
     },
     resume: {
         img : "https://i.imgur.com/raXHn44.png",
-        title: "RESUME",
+        title: "ABOUT",
         description: " Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc",
         
     },

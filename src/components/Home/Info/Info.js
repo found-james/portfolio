@@ -4,11 +4,12 @@ import { useNavigate } from "react-router-dom"
 import Footer from "../../Footer/Footer"
 import Header from "../../Header/Header"
 import { motion } from "framer-motion"
+import { Fragment } from "react"
 
 function Info() {
   let navigate = useNavigate();
   const toProjects = () => navigate("/projects")
-  const toResume = () => navigate("/resume")
+  const toAbout = () => navigate("/about")
   
   return (
       <motion.section className={styles.home} initial={{ opacity: 0 }}
@@ -27,23 +28,27 @@ function Info() {
         </article>
         <article>
           <figure onClick={ toProjects }>
-            <img src={data.projects.img} />
+          
+          <motion.i whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}className="fa-solid fa-list-check fa-10x"></motion.i>
             <h2>{data.projects.title}</h2>
             <p>{data.projects.description}</p>
           </figure>
-          <figure onClick={ toResume }>
-            <img src={data.resume.img} />
+          <figure onClick={ toAbout }>
+            <motion.i whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="fa-solid fa-file fa-10x"></motion.i>
             <h2>{data.resume.title}</h2>
             <p>{data.resume.description}</p>
           </figure>
           <figure>
-            <img src={data.contact.img} />
+            <motion.i whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}className="fa-solid fa-address-book fa-10x"></motion.i>
             <h2>{data.contact.title}</h2>
             <p>{data.contact.description}</p>
           </figure>
           </article>
-          <div></div>
+          
       </motion.section>
+    
+  
+
   )
 }
 
