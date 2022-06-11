@@ -44,7 +44,10 @@ function Info() {
             <p>{data.contact.description}</p>
           </figure>
           </article>
+          <div className={styles.bottomOfPage}>
+          <div></div>
           <Footer />
+          </div>
       </motion.section>
     
   

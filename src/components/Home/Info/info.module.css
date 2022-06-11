@@ -5,12 +5,26 @@
     gap: 20px;
     overflow: scroll;
     align-items: center;
-    width: inherit;
-    padding: 120px 0;
     height: inherit;
     position: relative;
+    transform: translateY(120px);
 }
 
+.bottomOfPage
+{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;    
+}
+
+.bottomOfPage > div
+{
+    height: 100px;
+    width: 100%;
+}
 
 .home i
 {
@@ -73,11 +87,19 @@
 
 @media only screen and (min-width: 810px) 
 {
+    .bottomOfPage > div
+    {
+        height: 100%;
+        
+    }
+
     .home
     {
         flex-direction: column;
-        padding: 40px 0 0 0;
-        height: inherit;
+        transform: translateY(100px);
+
+        /* padding: 40px 0 0 0; */
+        /* height: inherit; */
 
     }
 
@@ -88,7 +110,7 @@
 
     .home > div 
     {
-        height: 50px;
+        height: 100%;
     }
 
     .home article 
@@ -136,13 +158,17 @@
         max-width: none;
         flex-direction: column;
         gap: 40px;
-        padding: 100px 0 0 0;
+        height: inherit;
+        width: 1398px;
     }
 
-    .home > div 
+    .bottomOfPage
     {
-        height: 80px;
+        /* height: 100px; */
+        width: 1398px;
+    
     }
+   
     
     .home h2
     {

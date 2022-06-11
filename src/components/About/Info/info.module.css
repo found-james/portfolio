@@ -5,9 +5,26 @@
     gap: 20px;
     overflow: scroll;
     align-items: center;
-    width: inherit;
-    padding: 120px 0 0 0;
+    height: inherit;
+    position: relative;
+    transform: translateY(120px);
 
+}
+
+.bottomOfPage
+{
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;    
+}
+
+.bottomOfPage > div
+{
+    height: 100px;
+    width: 100%;
 }
 
 .partThree i
@@ -61,22 +78,26 @@
 
 @media only screen and (min-width: 810px) 
 {
+    .bottomOfPage > div
+    {
+        height: 100%;
+        
+    }
+
     .partThree 
     {
-        max-width: none;
         flex-direction: column;
-        width: inherit;
-        padding: 40px 0 0 0;
+        transform: translateY(100px);
     }
 
     .partThree img {
         height: 200px;
     }
 
-    .partThree > div 
+    /* .partThree > div 
     {
         height: 50px;
-    }
+    } */
 
     .partThree article 
     {
@@ -116,17 +137,26 @@
     {
         max-width: none;
         flex-direction: column;
-        padding: 100px 0;
+        gap: 40px;
+        height: inherit;
+        width: 1398px;
     }
 
+    .bottomOfPage
+    {
+        /* height: 100px; */
+        width: 1398px;
+    
+    }
+   
     .partThree img {
         height: 300px;
     }
 
-    .partThree > div 
+    /* .partThree > div 
     {
         height: 80px;
-    }
+    } */
 
     .partThree h2
     {

@@ -19,13 +19,13 @@ body
     position: relative;
 }
 
-main
+#root
 {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: inherit;
+    height: 100vh;
     width: 100%;
     
 }
@@ -53,7 +53,7 @@ p
         justify-content: center;
     }
 
-    main 
+    #root
     {
         background-color: white;
         width: 1398px;

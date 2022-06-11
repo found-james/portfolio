@@ -46,7 +46,9 @@ function ProjectList() {
         </figure>
       </article>
       <div className={styles.bottomOfPage}>
-        <div></div>
+        <div>
+          
+        </div>
       <Footer />
       </div>
       </motion.section>

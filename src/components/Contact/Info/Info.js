@@ -31,8 +31,10 @@ function Info() {
             </div>
             </figure>
           </article>
-          
+          <div className={styles.bottomOfPage}>
+            <div></div>
           <Footer />
+          </div>
           
         </motion.section>
   )

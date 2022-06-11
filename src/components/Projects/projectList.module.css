@@ -5,12 +5,10 @@
     gap: 20px;
     overflow: scroll;
     align-items: center;
-    /* padding: 150px 0; */
-    width: 100%;
-    height: 100vh;
+    height: inherit;
+    position: relative;
     transform: translateY(120px);
 }
-
 
 .projectList article 
 {
@@ -24,20 +22,16 @@
 {
     height: 50vh;
     width: 100vw;
-    /* border: 20px solid white; */
-    /* background-color: goldenrod; */
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    position: relative;
-    /* transform: translateX(-9%); */
-
-    
+    position: relative;    
 }
 
 .bottomOfPage > div
 {
     height: 100px;
+    width: 100%;
 }
 .projectList img 
 {  
@@ -79,19 +73,22 @@
 
 @media only screen and (min-width: 810px) 
 {
+    .bottomOfPage > div
+{
+    height: 100%;
+    
+}
     .projectList 
     {
-        /* max-width: none; */
+        transform: translateY(100px);
         flex-direction: column;
-        padding: 70px 0 0 0;
-        height: inherit;
-        width: inherit;
 
     }
 
     .projectList img 
     {
         height: 160px;
+        z-index: 1;
     }
 
     .projectList p 
@@ -101,7 +98,7 @@
 
     .projectList > div 
     {
-        height: 50px;
+        height: 100%;
     }
 
     .projectList article 
@@ -151,14 +148,15 @@
         max-width: none;
         flex-direction: column;
         gap: 40px;
-        padding: 100px 0 0 0;
-        
-
+        height: inherit;
+        width: 1398px;
+    
     }
 
-    .projectList > div 
+    .bottomOfPage
     {
-        height: 80px;
+        height: 100px;
+        width: 1398px;
     }
 
     .projectList h2
