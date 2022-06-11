@@ -6,13 +6,10 @@
     overflow: scroll;
     /* justify-content: center; */
     align-items: center;
-    padding: 120px 0;
+    padding: 150px 0;
+    width: 100%;
 }
 
-.buffer
-{
-    height: 100px;
-}
 
 .projectList article 
 {
