@@ -160,6 +160,12 @@
         width: 1398px;
     }
 
+    .projectList figure 
+    {
+    gap: 20px;
+
+    }
+
     .projectList h2
     {
     font-size: 32px;
