@@ -27,21 +27,21 @@ function ProjectList() {
           <p>{data.projectTwo.description}</p>
         </figure>
         <figure>
-          <a href={data.contactKeeper.anchor} target="_blank">
-            <motion.img whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} src={data.contactKeeper.img} />
+          <a href={data.projectThree.anchor} target="_blank">
+            <motion.img whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} src={data.projectThree.img} />
           </a>
-          <h2>{data.contactKeeper.title}</h2>
-          <p>{data.contactKeeper.description}</p>
+          <h2>{data.projectThree.title}</h2>
+          <p>{data.projectThree.description}</p>
         </figure>
       </article>
       <article>
         <figure>
-          <a href={data.collab.anchor} target="_blank">
-            <motion.img whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} src={data.collab.img} />
+          <a href={data.contactKeeper.anchor} target="_blank">
+            <motion.img whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} src={data.contactKeeper.img} />
           </a>
           <div>
-            <h2>{data.collab.title}</h2>
-            <p>{data.collab.description}</p>
+            <h2>{data.contactKeeper.title}</h2>
+            <p>{data.contactKeeper.description}</p>
           </div>
         </figure>
       </article>
