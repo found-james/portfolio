@@ -13,18 +13,18 @@ function ProjectList() {
     exit={{ opacity: 0 }}>
       <article>
         <figure>
-          <a href={data.spaceBattle.anchor} target="_blank">
-            <motion.img whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} src={data.spaceBattle.img} />
+          <a href={data.projectOne.anchor} target="_blank">
+            <motion.img whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} src={data.projectOne.img} />
           </a>
-          <h2>{data.spaceBattle.title}</h2>
-          <p>{data.spaceBattle.description}</p> 
+          <h2>{data.projectOne.title}</h2>
+          <p>{data.projectOne.description}</p> 
         </figure>
         <figure>
-          <a href={data.githubFinder.anchor} target="_blank">
-            <motion.img whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} src={data.githubFinder.img} />
+          <a href={data.projectTwo.anchor} target="_blank">
+            <motion.img whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} src={data.projectTwo.img} />
           </a>
-          <h2>{data.githubFinder.title}</h2>
-          <p>{data.githubFinder.description}</p>
+          <h2>{data.projectTwo.title}</h2>
+          <p>{data.projectTwo.description}</p>
         </figure>
         <figure>
           <a href={data.contactKeeper.anchor} target="_blank">
